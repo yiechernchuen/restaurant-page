@@ -166,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"702e168b647228122f31.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Classic_BBQ_Bacon_Burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/702e168b647228122f31.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Classic_BBQ_Bacon_Burger.jpg?");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ eval("module.exports = __webpack_require__.p + \"702e168b647228122f31.jpg\";\n\n
   \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"ce8a6dfdab428f661071.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Gourmet_Truffle_Burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/ce8a6dfdab428f661071.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Gourmet_Truffle_Burger.jpg?");
 
 /***/ }),
 
@@ -186,7 +186,7 @@ eval("module.exports = __webpack_require__.p + \"ce8a6dfdab428f661071.jpg\";\n\n
   \************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"bc040e8767a28ffb2afc.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Mediterranean_Veggie_Burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/bc040e8767a28ffb2afc.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Mediterranean_Veggie_Burger.jpg?");
 
 /***/ }),
 
@@ -196,7 +196,7 @@ eval("module.exports = __webpack_require__.p + \"bc040e8767a28ffb2afc.jpg\";\n\n
   \********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"75f2a8e10a9db2edaa20.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Southwest_Fiesta_Burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/75f2a8e10a9db2edaa20.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Southwest_Fiesta_Burger.jpg?");
 
 /***/ }),
 
@@ -206,7 +206,7 @@ eval("module.exports = __webpack_require__.p + \"75f2a8e10a9db2edaa20.jpg\";\n\n
   \**************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"343e040626c502969549.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Umami_Teriyaki_Chicken_Burger.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/343e040626c502969549.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/burgers/Umami_Teriyaki_Chicken_Burger.jpg?");
 
 /***/ }),
 
@@ -216,7 +216,7 @@ eval("module.exports = __webpack_require__.p + \"343e040626c502969549.jpg\";\n\n
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3505b13d67568343a3f1.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/logo.png?");
+eval("module.exports = __webpack_require__.p + \"images/3505b13d67568343a3f1.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/logo.png?");
 
 /***/ })
 
