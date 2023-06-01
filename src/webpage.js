@@ -1,0 +1,35 @@
+const header = document.createElement('div');
+const content = document.createElement('div');
+const buttonDiv = document.createElement('div');
+const homeButton = document.createElement('button');
+const menuButton = document.createElement('button');
+const contactButton = document.createElement('button');
+const homeContent = document.createElement('div');
+const menuContent = document.createElement('div');
+const contactContent = document.createElement('div');
+const footer = document.createElement('div');
+const container = document.querySelector('#content');
+header.classList.add('header');
+content.classList.add('content');
+footer.classList.add('footer');
+buttonDiv.classList.add('buttonDiv');
+homeButton.classList.add('navButton');
+menuButton.classList.add('navButton');
+contactButton.classList.add('navButton');
+homeContent.classList.add('home');
+menuContent.classList.add('menu');
+contactContent.classList.add('contact');
+container.appendChild(header);
+container.appendChild(content);
+container.appendChild(footer);
+content.appendChild(buttonDiv);
+content.appendChild(homeContent);
+content.appendChild(menuContent);
+content.appendChild(contactContent);
+buttonDiv.appendChild(homeButton);
+buttonDiv.appendChild(menuButton);
+buttonDiv.appendChild(contactButton);
+
+header.textContent = 'Flavorful Grind';
+
+export { homeButton, homeContent, menuButton, menuContent, contactButton, contactContent };

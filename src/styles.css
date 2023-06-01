@@ -1,3 +1,103 @@
-body {
-    background-color: grey;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 15px;
+}
+
+.header {
+    text-align: center;
+    align-self: stretch;
+    padding: 15px;
+    background-color: gray;
+}
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.introduction {
+    width: 500px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.logo {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.menu {
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    width: 1000px;
+}
+
+.menuImg {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px solid rgb(207, 231, 72);
+}
+
+.menuDiv {
+    width: 570px;
+}
+.menuHeader {
+    margin-bottom: 20px;
+    text-decoration: underline;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/760/491/770/light-color-border-wallpaper-preview.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.menuDesc {
+    font-size: large;
+}
+
+.contact {
+    display: none;
+}
+.contactDetails {
+    white-space: pre-wrap;
+    font-size: large;
+}
+.hoursDiv {
+    text-align: center;
+    line-height: 2;
+}
+.hours {
+    text-align: center;
+}
+.footer {
+    margin-top: auto;
+    height: 20px;
+    background-color: gray;
 }
