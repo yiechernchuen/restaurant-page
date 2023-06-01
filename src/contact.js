@@ -12,8 +12,8 @@ function createContact() {
     }
     contactContent.appendChild(div);
     const paragraph = document.querySelectorAll('.contactDiv .contactDetails');
-    paragraph[0].textContent = '☎️  202-555-0140';
-    paragraph[1].textContent = '📍    835 Lenox Rd, Brooklyn, NY 11203, USA';
+    paragraph[0].textContent = '☎️  123-456-7890';
+    paragraph[1].textContent = '📍    999 Lenox Rd, Brooklyn, KSA 11203, ASU';
     paragraph[2].textContent = '📧  FlavorfulGrind@email.com';
 }
 

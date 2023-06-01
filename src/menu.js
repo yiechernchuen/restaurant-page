@@ -8,17 +8,20 @@ import burger5 from './images/burgers/Umami_Teriyaki_Chicken_Burger.jpg';
 menuButton.textContent = 'Menu';
 const burgers = [burger1, burger2, burger3, burger4, burger5];
 for (let i = 0; i < 5; i++) {
-    let div = document.createElement('div');
+    let div1 = document.createElement('div');
+    let div2 = document.createElement('div');
     let header = document.createElement('h1');
     let paragraph = document.createElement('p');
     let img = new Image();
-    div.classList.add('menuDiv');
+    div1.classList.add('menuContainer');
+    div2.classList.add('menuDiv');
     header.classList.add('menuHeader');
     paragraph.classList.add('menuDesc');
     img.classList.add('menuImg');
     img.src = burgers[i];
-    div.append(header, paragraph);
-    menuContent.append(img, div);
+    div2.append(header, paragraph);
+    div1.append(img, div2);
+    menuContent.append(div1);
 }
 
 const menuHeader = document.querySelectorAll('.menuHeader');

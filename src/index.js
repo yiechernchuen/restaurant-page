@@ -6,6 +6,7 @@ import './contact';
 
 function switchTab() {
     const button = document.querySelectorAll('.navButton');
+    const background = document.querySelector('#content');
     button.forEach((item) => {
         item.addEventListener('click', (e) => {
             if (e.target.textContent === 'Home') {
@@ -19,7 +20,7 @@ function switchTab() {
             } else if (e.target.textContent === 'Contact') {
                 homeContent.style.display = 'none';
                 menuContent.style.display = 'none';
-                contactContent.style.display = 'block';
+                contactContent.style.display = 'flex';
             }
         });
     });
