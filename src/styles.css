@@ -60,12 +60,22 @@ html {
     align-items: center;
     gap: 20px;
     flex-grow: 1;
-    background-image: url(./images/homeBackground.png);
     background-size: cover;
     padding-top: 30px;
     padding-bottom: 30px;
+    position: relative;
 }
 
+.home::after {
+    --blur-background: 6px;
+    content: '';
+    filter: blur(var(--blur-background));
+    width: calc(100% + var(--blur-background));
+    height: calc(100% + calc(var(--blur-background) * 3));
+    background-image: url(./images/background.jpg);
+    position: absolute;
+    z-index: -100;
+}
 .introduction {
     width: 500px;
     text-align: center;
